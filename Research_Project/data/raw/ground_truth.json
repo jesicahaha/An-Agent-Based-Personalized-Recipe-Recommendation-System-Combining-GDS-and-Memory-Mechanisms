@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "description": "健身房契約審查系統 ground truth（配合 wrong_contract_aligned.txt 現行版本）",
+    "source_contract": "data/raw/wrong_contract_aligned.txt",
+    "source_template": "data/raw/template.txt",
+    "total_violations": 17,
+    "total_unchanged": 21,
+    "note": "law_ref／mandatory_items_ref 沿用 build_kg.py 的 TEMPLATE_LAW_MAPPING／TEMPLATE_MANDATORY_MAPPING，尚未經指導教授覆核，正式評估前請覆核。（已修正：第三十七條 law_ref 由「消費者保護法第17條」更正為「消費者保護法第13條」，以同步 build_kg.py 最新版 TEMPLATE_LAW_MAPPING 的修訂。）"
+  },
+  "violations": [
+    {
+      "clause_no": "簽約注意事項",
+      "clause_title": "審閱期及當事人資料",
+      "contract_node_id": "contract_錯誤契約_front",
+      "template_node_id": "template_範本_front",
+      "violation_summary": "刪除三日以上契約審閱期，改為甲方簽署即視為已審閱同意，不給予審閱期間。",
+      "mandatory_items_ref": [
+        "應記載一"
+      ],
+      "law_ref": [
+        "消費者保護法第11-1條"
+      ],
+      "template_ref": "template_範本_front"
+    },
+    {
+      "clause_no": "第一條",
+      "clause_title": "乙方揭露必要之基本資料",
+      "contract_node_id": "contract_錯誤契約_art一",
+      "template_node_id": "template_範本_art一",
+      "violation_summary": "僅揭露8款基本資料，刪除公共意外責任險額度、預計招收會員數、現有會員數、總面積、最大容留人數等5款揭露義務。",
+      "mandatory_items_ref": [
+        "應記載二",
+        "應記載三"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art一"
+    },
+    {
+      "clause_no": "第二條",
+      "clause_title": "乙方服務提供及其內容說明",
+      "contract_node_id": "contract_錯誤契約_art二",
+      "template_node_id": "template_範本_art二",
+      "violation_summary": "刪除中文標示及使用說明義務，且新增業者得自行決定並隨時調整器材內容、不另行通知甲方之條款。",
+      "mandatory_items_ref": [
+        "應記載六"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art二"
+    },
+    {
+      "clause_no": "第四條",
+      "clause_title": "會員種類及使用時段",
+      "contract_node_id": "contract_錯誤契約_art四",
+      "template_node_id": "template_範本_art四",
+      "violation_summary": "新增範本沒有的「終身會員」選項，並約定繳費後永久享有會員資格。",
+      "mandatory_items_ref": [
+        "應記載四"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art四"
+    },
+    {
+      "clause_no": "第五條",
+      "clause_title": "甲方契約總金額",
+      "contract_node_id": "contract_錯誤契約_art五",
+      "template_node_id": "template_範本_art五",
+      "violation_summary": "新增「甲方一旦繳費，概不退還，乙方不負退費義務」，排除所有法定退費計算方式。",
+      "mandatory_items_ref": [
+        "應記載五"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art五"
+    },
+    {
+      "clause_no": "第七條",
+      "clause_title": "會費調整",
+      "contract_node_id": "contract_錯誤契約_art七",
+      "template_node_id": "template_範本_art七",
+      "violation_summary": "由「非經甲方同意不得調高費用」改為「乙方得視經營成本及市場狀況自行片面調高費用，甲方不得異議」。",
+      "mandatory_items_ref": [
+        "不得記載四"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art七"
+    },
+    {
+      "clause_no": "第十一條",
+      "clause_title": "暫停會籍之事由與效果",
+      "contract_node_id": "contract_錯誤契約_art十一",
+      "template_node_id": "template_範本_art十一",
+      "violation_summary": "暫停會籍事由由6款縮減為2款，且新增每次不得逾30日、每年合計不得逾60日之限制，並須繳交新臺幣500元行政處理費。",
+      "mandatory_items_ref": [
+        "應記載八"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art十一"
+    },
+    {
+      "clause_no": "第十二條",
+      "clause_title": "不可歸責甲方事由之終止與效果",
+      "contract_node_id": "contract_錯誤契約_art十二",
+      "template_node_id": "template_範本_art十二",
+      "violation_summary": "因場所搬遷或縮減面積達20%以上時，刪除甲方得終止契約並退費之權利，改為甲方不得以此為由要求退費或終止契約。",
+      "mandatory_items_ref": [
+        "應記載九"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art十二"
+    },
+    {
+      "clause_no": "第十三條",
+      "clause_title": "可歸責甲方事由之終止與效果",
+      "contract_node_id": "contract_錯誤契約_art十三",
+      "template_node_id": "template_範本_art十三",
+      "violation_summary": "刪除甲方得依契約期間屆滿前隨時終止並依比例退費之權利，改為禁止單方終止，執意終止須繳交剩餘期間全額會費50%違約金且已繳費用概不退還。",
+      "mandatory_items_ref": [
+        "應記載十"
+      ],
+      "law_ref": [
+        "消費者保護法第19條"
+      ],
+      "template_ref": "template_範本_art十三"
+    },
+    {
+      "clause_no": "第二十一條",
+      "clause_title": "乙方履約保障",
+      "contract_node_id": "contract_錯誤契約_art二十一",
+      "template_node_id": "template_範本_art二十一",
+      "violation_summary": "完全刪除履約保障機制，改為「乙方基於對自身經營能力之自信，不提供任何形式之履約保障機制」。",
+      "mandatory_items_ref": [
+        "應記載二十二"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art二十一"
+    },
+    {
+      "clause_no": "第二十二條",
+      "clause_title": "贈品約款及其效果",
+      "contract_node_id": "contract_錯誤契約_art二十二",
+      "template_node_id": "template_範本_art二十二",
+      "violation_summary": "贈品（含贈送會籍期間）新增附條件約款：提前終止須返還贈品或按市價折算扣除退費，贈送會籍期間亦不列入退費計算。",
+      "mandatory_items_ref": [
+        "應記載二十",
+        "不得記載十三"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art二十二"
+    },
+    {
+      "clause_no": "第二十七條",
+      "clause_title": "損害賠償責任",
+      "contract_node_id": "contract_錯誤契約_art二十七",
+      "template_node_id": "template_範本_art二十七",
+      "violation_summary": "由乙方負合理限度損害賠償責任，改為對甲方於場所內使用器材或參與活動所生之身體傷害、健康或財產損失完全免責。",
+      "mandatory_items_ref": [
+        "不得記載二"
+      ],
+      "law_ref": [
+        "消費者保護法第7條"
+      ],
+      "template_ref": "template_範本_art二十七"
+    },
+    {
+      "clause_no": "第二十九條",
+      "clause_title": "約定使用期間屆滿通知義務",
+      "contract_node_id": "contract_錯誤契約_art二十九",
+      "template_node_id": "template_範本_art二十九",
+      "violation_summary": "刪除業者應於期滿前一個月通知之義務，改為甲方未於期滿前30日書面通知終止即視為同意自動續約，乙方不另行通知。",
+      "mandatory_items_ref": [
+        "應記載十八",
+        "不得記載十一"
+      ],
+      "law_ref": [
+        "消費者保護法第17條"
+      ],
+      "template_ref": "template_範本_art二十九"
+    },
+    {
+      "clause_no": "第三十條",
+      "clause_title": "消費資訊及廣告",
+      "contract_node_id": "contract_錯誤契約_art三十",
+      "template_node_id": "template_範本_art三十",
+      "violation_summary": "由「乙方廣告內容均為契約內容、應確保真實」改為「廣告、宣傳單或口頭說明僅供參考，不構成契約內容，乙方不受拘束」。",
+      "mandatory_items_ref": [
+        "應記載二十四"
+      ],
+      "law_ref": [
+        "消費者保護法第22條"
+      ],
+      "template_ref": "template_範本_art三十"
+    },
+    {
+      "clause_no": "第三十四條",
+      "clause_title": "合意管轄",
+      "contract_node_id": "contract_錯誤契約_art三十四",
+      "template_node_id": "template_範本_art三十四",
+      "violation_summary": "由「不得排除消費者保護法第47條及民事訴訟法小額訴訟管轄」改為「以臺北地方法院為唯一第一審管轄法院，排除其他管轄法院之適用」，排除小額訴訟管轄。",
+      "mandatory_items_ref": [
+        "應記載二十三"
+      ],
+      "law_ref": [
+        "消費者保護法第47條"
+      ],
+      "template_ref": "template_範本_art三十四"
+    },
+    {
+      "clause_no": "第三十五條",
+      "clause_title": "疑義解釋",
+      "contract_node_id": "contract_錯誤契約_art三十五",
+      "template_node_id": "template_範本_art三十五",
+      "violation_summary": "由「作有利於甲方之解釋」改為「以乙方之解釋為準」。",
+      "mandatory_items_ref": [
+        "不得記載七"
+      ],
+      "law_ref": [
+        "消費者保護法第11條"
+      ],
+      "template_ref": "template_範本_art三十五"
+    },
+    {
+      "clause_no": "第三十七條",
+      "clause_title": "契約文件交執",
+      "contract_node_id": "contract_錯誤契約_art三十七",
+      "template_node_id": "template_範本_art三十七",
+      "violation_summary": "由「契約書乙式兩份，甲乙雙方各執一份為憑」改為「正本由乙方統一保管，不另行交付甲方留存」。",
+      "mandatory_items_ref": [
+        "不得記載八"
+      ],
+      "law_ref": [
+        "消費者保護法第13條"
+      ],
+      "template_ref": "template_範本_art三十七"
+    }
+  ],
+  "unchanged_articles": [
+    {
+      "clause_no": "第三條",
+      "contract_node_id": "contract_錯誤契約_art三"
+    },
+    {
+      "clause_no": "第三十一條",
+      "contract_node_id": "contract_錯誤契約_art三十一"
+    },
+    {
+      "clause_no": "第三十三條",
+      "contract_node_id": "contract_錯誤契約_art三十三"
+    },
+    {
+      "clause_no": "第三十二條",
+      "contract_node_id": "contract_錯誤契約_art三十二"
+    },
+    {
+      "clause_no": "第三十六條",
+      "contract_node_id": "contract_錯誤契約_art三十六"
+    },
+    {
+      "clause_no": "第九條",
+      "contract_node_id": "contract_錯誤契約_art九"
+    },
+    {
+      "clause_no": "第二十條",
+      "contract_node_id": "contract_錯誤契約_art二十"
+    },
+    {
+      "clause_no": "第二十三條",
+      "contract_node_id": "contract_錯誤契約_art二十三"
+    },
+    {
+      "clause_no": "第二十五條",
+      "contract_node_id": "contract_錯誤契約_art二十五"
+    },
+    {
+      "clause_no": "第二十八條",
+      "contract_node_id": "contract_錯誤契約_art二十八"
+    },
+    {
+      "clause_no": "第二十六條",
+      "contract_node_id": "contract_錯誤契約_art二十六"
+    },
+    {
+      "clause_no": "第二十四條",
+      "contract_node_id": "contract_錯誤契約_art二十四"
+    },
+    {
+      "clause_no": "第八條",
+      "contract_node_id": "contract_錯誤契約_art八"
+    },
+    {
+      "clause_no": "第六條",
+      "contract_node_id": "contract_錯誤契約_art六"
+    },
+    {
+      "clause_no": "第十條",
+      "contract_node_id": "contract_錯誤契約_art十"
+    },
+    {
+      "clause_no": "第十七條",
+      "contract_node_id": "contract_錯誤契約_art十七"
+    },
+    {
+      "clause_no": "第十九條",
+      "contract_node_id": "contract_錯誤契約_art十九"
+    },
+    {
+      "clause_no": "第十五條",
+      "contract_node_id": "contract_錯誤契約_art十五"
+    },
+    {
+      "clause_no": "第十八條",
+      "contract_node_id": "contract_錯誤契約_art十八"
+    },
+    {
+      "clause_no": "第十六條",
+      "contract_node_id": "contract_錯誤契約_art十六"
+    },
+    {
+      "clause_no": "第十四條",
+      "contract_node_id": "contract_錯誤契約_art十四"
+    }
+  ]
+}

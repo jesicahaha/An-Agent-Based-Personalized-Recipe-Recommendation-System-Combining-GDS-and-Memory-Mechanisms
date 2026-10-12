@@ -1,0 +1,1265 @@
+{
+  "contract_錯誤契約_front": {
+    "query_text_preview": "簽約注意事項 一、甲方簽署本契約即表示已充分審閱並同意本契約全部內容，不另給予審",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "簽約注意事項"
+        ],
+        "law_articles": [
+          "11-1",
+          "11-1"
+        ],
+        "mandatory_items": [
+          "應記載一"
+        ],
+        "score": 0.4776,
+        "relatedness": 0.9552,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art一": {
+    "query_text_preview": "第一條 （乙方揭露必要之基本資料） 乙方提供具健身設備之場所，並揭露下列基本資料",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "一"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載三",
+          "應記載二"
+        ],
+        "score": 0.4563,
+        "relatedness": 0.9126,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二": {
+    "query_text_preview": "第二條 （乙方服務提供及其內容說明） 乙方於營業時間內，提供運動器材設備供甲方使",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載六"
+        ],
+        "score": 0.428,
+        "relatedness": 0.8559,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三": {
+    "query_text_preview": "第三條 （入會條件） 甲方提供下列文件經乙方審查同意並經雙方簽約即取得會員資格：",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三"
+        ],
+        "law_articles": [
+          "11",
+          "11"
+        ],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art四": {
+    "query_text_preview": "第四條 （會員種類及使用時段） 甲方加入乙方會員種類如下： □年會員：自核准入會",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "四"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載四"
+        ],
+        "score": 0.4692,
+        "relatedness": 0.9384,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art五": {
+    "query_text_preview": "第五條 （甲方契約總金額） 契約總金額新臺幣○元，明細如下： □一、入會費新臺幣",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "五"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載五"
+        ],
+        "score": 0.4714,
+        "relatedness": 0.9429,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art六": {
+    "query_text_preview": "第六條 （明定甲方繳款方式） 甲方應負擔契約總金額之繳交方式如下: □一、現金。",
+    "candidate_count_before_merge": 2,
+    "cluster_count_after_merge": 2,
+    "shown_after_truncation_to_t": 2,
+    "clusters": [
+      {
+        "members_article_no": [
+          "六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載五"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十八"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十五"
+        ],
+        "score": 0.389,
+        "relatedness": 0.778,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art七": {
+    "query_text_preview": "第七條 （會費調整） 乙方得視經營成本及市場狀況，於事前公告後自行調整第五條約定",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "七"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "不得記載四"
+        ],
+        "score": 0.4143,
+        "relatedness": 0.8286,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art八": {
+    "query_text_preview": "第八條 （甲方與第三人之消費貸款契約） 為協助甲方取得給付本契約費用之資金來源，",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "八"
+        ],
+        "law_articles": [
+          "18"
+        ],
+        "mandatory_items": [
+          "應記載七"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art九": {
+    "query_text_preview": "第九條 (約定通知方式) 本契約通知方式約定如下(得複選)： □一、公告於乙方網",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "九"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十": {
+    "query_text_preview": "第十條 （乙方服務異動之通知及公告） 乙方有下列事由之一者，應與原定服務時間相距",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十七"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十一": {
+    "query_text_preview": "第十一條 (暫停會籍之事由與效果) 甲方申請暫停會籍須符合下列條件，且每次暫停不",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十一"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載八"
+        ],
+        "score": 0.3974,
+        "relatedness": 0.7948,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十二": {
+    "query_text_preview": "第十二條 (不可歸責甲方事由之終止與效果) 乙方因業務需要得遷移營業場所或縮減場",
+    "candidate_count_before_merge": 3,
+    "cluster_count_after_merge": 2,
+    "shown_after_truncation_to_t": 2,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十二",
+          "十一"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載九",
+          "應記載八"
+        ],
+        "score": 0.5807,
+        "relatedness": 0.828,
+        "internal_jaccard": 0.3333
+      },
+      {
+        "members_article_no": [
+          "十五"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十二"
+        ],
+        "score": 0.3821,
+        "relatedness": 0.7641,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十三": {
+    "query_text_preview": "第十三條 (可歸責甲方事由之終止與效果) 甲方於契約期間內不得單方面終止契約。如",
+    "candidate_count_before_merge": 5,
+    "cluster_count_after_merge": 5,
+    "shown_after_truncation_to_t": 5,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十三"
+        ],
+        "law_articles": [
+          "17",
+          "17",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ],
+        "mandatory_items": [
+          "應記載十"
+        ],
+        "score": 0.4518,
+        "relatedness": 0.9035,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十五"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十二"
+        ],
+        "score": 0.4069,
+        "relatedness": 0.8138,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十三"
+        ],
+        "score": 0.4067,
+        "relatedness": 0.8133,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載九"
+        ],
+        "score": 0.4033,
+        "relatedness": 0.8067,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十四"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十一"
+        ],
+        "score": 0.3866,
+        "relatedness": 0.7732,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十四": {
+    "query_text_preview": "第十四條 (不可歸責雙方事由之終止與效果) 因天災、戰亂、政府法令之新增或變更等",
+    "candidate_count_before_merge": 5,
+    "cluster_count_after_merge": 5,
+    "shown_after_truncation_to_t": 5,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十四"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十一"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十五"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十二"
+        ],
+        "score": 0.4097,
+        "relatedness": 0.8194,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十三"
+        ],
+        "score": 0.4056,
+        "relatedness": 0.8112,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載九"
+        ],
+        "score": 0.382,
+        "relatedness": 0.764,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十三"
+        ],
+        "law_articles": [
+          "17",
+          "17",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ],
+        "mandatory_items": [
+          "應記載十"
+        ],
+        "score": 0.3761,
+        "relatedness": 0.7522,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十五": {
+    "query_text_preview": "第十五條 (不可歸責乙方事由之終止與效果) 甲方有影響乙方營運之不當行為情節重大",
+    "candidate_count_before_merge": 5,
+    "cluster_count_after_merge": 5,
+    "shown_after_truncation_to_t": 5,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十五"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十二"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十三"
+        ],
+        "score": 0.4433,
+        "relatedness": 0.8866,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載九"
+        ],
+        "score": 0.4125,
+        "relatedness": 0.825,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十四"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十一"
+        ],
+        "score": 0.4097,
+        "relatedness": 0.8194,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十三"
+        ],
+        "law_articles": [
+          "17",
+          "17",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ],
+        "mandatory_items": [
+          "應記載十"
+        ],
+        "score": 0.3859,
+        "relatedness": 0.7719,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十六": {
+    "query_text_preview": "第十六條 (可歸責乙方事由之終止與效果) 可歸責乙方之事由致不能繼續履約者，甲方",
+    "candidate_count_before_merge": 6,
+    "cluster_count_after_merge": 6,
+    "shown_after_truncation_to_t": 6,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十三"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十五"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十二"
+        ],
+        "score": 0.4433,
+        "relatedness": 0.8866,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載九"
+        ],
+        "score": 0.4149,
+        "relatedness": 0.8299,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十三"
+        ],
+        "law_articles": [
+          "17",
+          "17",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ],
+        "mandatory_items": [
+          "應記載十"
+        ],
+        "score": 0.4081,
+        "relatedness": 0.8161,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十四"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十一"
+        ],
+        "score": 0.4056,
+        "relatedness": 0.8112,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十八"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十五"
+        ],
+        "score": 0.3812,
+        "relatedness": 0.7623,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十七": {
+    "query_text_preview": "第十七條 （履約地點正式營運前之終止） 甲方於履約地點正式營運前簽訂契約，得於正",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十七"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十四"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十八": {
+    "query_text_preview": "第十八條 (終止契約之通知及退款方式) 甲方依第十二條至第十四條、第十六條、前條",
+    "candidate_count_before_merge": 4,
+    "cluster_count_after_merge": 4,
+    "shown_after_truncation_to_t": 4,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十八"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十五"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載五"
+        ],
+        "score": 0.389,
+        "relatedness": 0.778,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十六"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十三"
+        ],
+        "score": 0.3812,
+        "relatedness": 0.7623,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "二十"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十九"
+        ],
+        "score": 0.3783,
+        "relatedness": 0.7566,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art十九": {
+    "query_text_preview": "第十九條 （契約讓與第三人） 甲方於契約期間屆滿前經乙方同意，得讓與契約予第三人",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "十九"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十六"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十": {
+    "query_text_preview": "第二十條 （甲方未繳費用時乙方通知義務） 甲方未繳費用時，乙方應於繳費期限屆滿日",
+    "candidate_count_before_merge": 5,
+    "cluster_count_after_merge": 5,
+    "shown_after_truncation_to_t": 5,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十九"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "二十九"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "不得記載十一",
+          "應記載十八"
+        ],
+        "score": 0.4163,
+        "relatedness": 0.8326,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十三"
+        ],
+        "law_articles": [
+          "17",
+          "17",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ],
+        "mandatory_items": [
+          "應記載十"
+        ],
+        "score": 0.3812,
+        "relatedness": 0.7623,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十八"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十五"
+        ],
+        "score": 0.3783,
+        "relatedness": 0.7566,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "十二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載九"
+        ],
+        "score": 0.3779,
+        "relatedness": 0.7558,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十一": {
+    "query_text_preview": "第二十一條 (乙方履約保障) 乙方基於對自身經營能力之自信，不提供任何形式之履約",
+    "candidate_count_before_merge": 0,
+    "cluster_count_after_merge": 0,
+    "shown_after_truncation_to_t": 0,
+    "clusters": []
+  },
+  "contract_錯誤契約_art二十二": {
+    "query_text_preview": "第二十二條 （贈品約款及其效果） 乙方贈與甲方之贈品（含贈送會籍期間），附條件如",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "不得記載十三",
+          "應記載二十"
+        ],
+        "score": 0.4508,
+        "relatedness": 0.9016,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十三": {
+    "query_text_preview": "第二十三條 (會籍轉點) 甲方會籍可否轉換其他營業場所（下稱轉點），約定下列方式",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十三"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載二十一"
+        ],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十四": {
+    "query_text_preview": "第二十四條 （健身中心相關義務） 乙方於其營業場所內，應遵守下列各款規定： 一、",
+    "candidate_count_before_merge": 3,
+    "cluster_count_after_merge": 3,
+    "shown_after_truncation_to_t": 3,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十四"
+        ],
+        "law_articles": [
+          "7",
+          "7",
+          "7"
+        ],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "二十五"
+        ],
+        "law_articles": [
+          "11",
+          "11"
+        ],
+        "mandatory_items": [],
+        "score": 0.413,
+        "relatedness": 0.8261,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "二"
+        ],
+        "law_articles": [
+          "17",
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載六"
+        ],
+        "score": 0.3763,
+        "relatedness": 0.7527,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十五": {
+    "query_text_preview": "第二十五條 （設備使用） 甲方使用乙方設備，應遵守下列規範： 一、應於接待櫃檯登",
+    "candidate_count_before_merge": 2,
+    "cluster_count_after_merge": 2,
+    "shown_after_truncation_to_t": 2,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十五"
+        ],
+        "law_articles": [
+          "11",
+          "11"
+        ],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "二十四"
+        ],
+        "law_articles": [
+          "7",
+          "7",
+          "7"
+        ],
+        "mandatory_items": [],
+        "score": 0.413,
+        "relatedness": 0.8261,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十六": {
+    "query_text_preview": "第二十六條 （乙方管理規範訂頒及修正） 乙方為便利甲方充分有效使用乙方運動器材設",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十六"
+        ],
+        "law_articles": [],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十七": {
+    "query_text_preview": "第二十七條 （損害賠償責任） 乙方對於甲方於本場所內因使用運動器材或參與活動所發",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十七"
+        ],
+        "law_articles": [
+          "7"
+        ],
+        "mandatory_items": [
+          "不得記載二"
+        ],
+        "score": 0.4153,
+        "relatedness": 0.8307,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十八": {
+    "query_text_preview": "第二十八條 (會員證或鑰匙之管理） 甲方應妥善保存會員證及所持有乙方之鑰匙，不得",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十八"
+        ],
+        "law_articles": [],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art二十九": {
+    "query_text_preview": "第二十九條 (約定使用期間屆滿通知義務) 本契約期滿後，若甲方未於期滿前三十日以",
+    "candidate_count_before_merge": 2,
+    "cluster_count_after_merge": 2,
+    "shown_after_truncation_to_t": 2,
+    "clusters": [
+      {
+        "members_article_no": [
+          "二十九"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "不得記載十一",
+          "應記載十八"
+        ],
+        "score": 0.4378,
+        "relatedness": 0.8756,
+        "internal_jaccard": 0.0
+      },
+      {
+        "members_article_no": [
+          "二十"
+        ],
+        "law_articles": [
+          "17"
+        ],
+        "mandatory_items": [
+          "應記載十九"
+        ],
+        "score": 0.3851,
+        "relatedness": 0.7703,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十": {
+    "query_text_preview": "第三十條 （消費資訊及廣告） 乙方之廣告、宣傳單或口頭說明僅供參考，不構成契約內",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十"
+        ],
+        "law_articles": [
+          "22"
+        ],
+        "mandatory_items": [
+          "應記載二十四"
+        ],
+        "score": 0.4361,
+        "relatedness": 0.8721,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十一": {
+    "query_text_preview": "第三十一條 (個別磋商條款) 甲乙雙方之權利義務事項，得本於個別磋商後書面約定如",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十一"
+        ],
+        "law_articles": [],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十二": {
+    "query_text_preview": "第三十二條 (揭明爭議處理程序) 甲乙雙方發生爭議時，甲方得依消費者保護法之規定",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十二"
+        ],
+        "law_articles": [],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十三": {
+    "query_text_preview": "第三十三條 (準據法) 本契約以中華民國法律為準據法。",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十三"
+        ],
+        "law_articles": [],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十四": {
+    "query_text_preview": "第三十四條 (合意管轄) 因本契約發生訴訟時，雙方同意以臺北地方法院為唯一第一審",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十四"
+        ],
+        "law_articles": [
+          "47"
+        ],
+        "mandatory_items": [
+          "應記載二十三"
+        ],
+        "score": 0.4143,
+        "relatedness": 0.8285,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十五": {
+    "query_text_preview": "第三十五條 （疑義解釋） 本契約條款如有疑義，應以乙方之解釋為準。",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十五"
+        ],
+        "law_articles": [
+          "11"
+        ],
+        "mandatory_items": [
+          "不得記載七"
+        ],
+        "score": 0.4592,
+        "relatedness": 0.9184,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十六": {
+    "query_text_preview": "第三十六條 (未盡事宜之處理) 本契約有未盡事宜者，依相關法令、習慣及誠信原則公",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十六"
+        ],
+        "law_articles": [],
+        "mandatory_items": [],
+        "score": 0.5,
+        "relatedness": 1.0,
+        "internal_jaccard": 0.0
+      }
+    ]
+  },
+  "contract_錯誤契約_art三十七": {
+    "query_text_preview": "第三十七條 (契約文件交執) 為確保契約完整性，甲方簽署之正本由乙方統一保管，不",
+    "candidate_count_before_merge": 1,
+    "cluster_count_after_merge": 1,
+    "shown_after_truncation_to_t": 1,
+    "clusters": [
+      {
+        "members_article_no": [
+          "三十七"
+        ],
+        "law_articles": [
+          "13",
+          "13"
+        ],
+        "mandatory_items": [
+          "不得記載八"
+        ],
+        "score": 0.3991,
+        "relatedness": 0.7983,
+        "internal_jaccard": 0.0
+      }
+    ]
+  }
+}

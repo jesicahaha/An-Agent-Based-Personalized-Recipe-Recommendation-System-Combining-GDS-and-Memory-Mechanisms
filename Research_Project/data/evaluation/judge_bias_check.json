@@ -1,0 +1,158 @@
+{
+  "params": {
+    "theta_sim": 0.75,
+    "theta_merge": 0.3,
+    "alpha": 0.5,
+    "t": 3,
+    "k": 2,
+    "generator_model": "gpt-4o-mini",
+    "judge_models": [
+      "gpt-4o-mini",
+      "gpt-4o"
+    ]
+  },
+  "classification": {
+    "tp": [
+      "contract_錯誤契約_front",
+      "contract_錯誤契約_art一",
+      "contract_錯誤契約_art二",
+      "contract_錯誤契約_art四",
+      "contract_錯誤契約_art五",
+      "contract_錯誤契約_art七",
+      "contract_錯誤契約_art十一",
+      "contract_錯誤契約_art十二",
+      "contract_錯誤契約_art十三",
+      "contract_錯誤契約_art二十二",
+      "contract_錯誤契約_art二十七",
+      "contract_錯誤契約_art二十九",
+      "contract_錯誤契約_art三十",
+      "contract_錯誤契約_art三十四",
+      "contract_錯誤契約_art三十五",
+      "contract_錯誤契約_art三十七"
+    ],
+    "fn": [
+      "contract_錯誤契約_art二十一"
+    ],
+    "fp": [
+      "contract_錯誤契約_art六",
+      "contract_錯誤契約_art十四"
+    ],
+    "tn": [
+      "contract_錯誤契約_art三",
+      "contract_錯誤契約_art八",
+      "contract_錯誤契約_art九",
+      "contract_錯誤契約_art十",
+      "contract_錯誤契約_art十五",
+      "contract_錯誤契約_art十六",
+      "contract_錯誤契約_art十七",
+      "contract_錯誤契約_art十八",
+      "contract_錯誤契約_art十九",
+      "contract_錯誤契約_art二十",
+      "contract_錯誤契約_art二十三",
+      "contract_錯誤契約_art二十四",
+      "contract_錯誤契約_art二十五",
+      "contract_錯誤契約_art二十六",
+      "contract_錯誤契約_art二十八",
+      "contract_錯誤契約_art三十一",
+      "contract_錯誤契約_art三十二",
+      "contract_錯誤契約_art三十三",
+      "contract_錯誤契約_art三十六"
+    ],
+    "precision": 0.8889,
+    "recall": 0.9412,
+    "f1": 0.9143
+  },
+  "law_grounding_accuracy_hybrid": {
+    "hits": [
+      "contract_錯誤契約_front",
+      "contract_錯誤契約_art二",
+      "contract_錯誤契約_art四",
+      "contract_錯誤契約_art五",
+      "contract_錯誤契約_art七",
+      "contract_錯誤契約_art十一",
+      "contract_錯誤契約_art十二",
+      "contract_錯誤契約_art二十二",
+      "contract_錯誤契約_art二十七",
+      "contract_錯誤契約_art二十九",
+      "contract_錯誤契約_art三十",
+      "contract_錯誤契約_art三十四",
+      "contract_錯誤契約_art三十五",
+      "contract_錯誤契約_art三十七"
+    ],
+    "misses": [
+      "contract_錯誤契約_art一",
+      "contract_錯誤契約_art十三"
+    ],
+    "accuracy": 0.875
+  },
+  "mandatory_grounding_accuracy_hybrid": {
+    "hits": [
+      "contract_錯誤契約_art一",
+      "contract_錯誤契約_art七",
+      "contract_錯誤契約_art十一",
+      "contract_錯誤契約_art十二",
+      "contract_錯誤契約_art二十二",
+      "contract_錯誤契約_art二十七",
+      "contract_錯誤契約_art二十九",
+      "contract_錯誤契約_art三十",
+      "contract_錯誤契約_art三十四",
+      "contract_錯誤契約_art三十五",
+      "contract_錯誤契約_art三十七"
+    ],
+    "misses": [
+      "contract_錯誤契約_front",
+      "contract_錯誤契約_art二",
+      "contract_錯誤契約_art四",
+      "contract_錯誤契約_art五",
+      "contract_錯誤契約_art十三"
+    ],
+    "accuracy": 0.6875
+  },
+  "bias_comparison_table": [
+    {
+      "metric": "context_relevance",
+      "gpt-4o-mini": {
+        "hybrid": 0.9132,
+        "baseline_flat_vector_all": 0.9184
+      },
+      "gpt-4o": {
+        "hybrid": 0.8053,
+        "baseline_flat_vector_all": 0.8684
+      },
+      "hybrid_vs_baseline_gap": {
+        "gpt-4o-mini": -0.0052,
+        "gpt-4o": -0.0631
+      }
+    },
+    {
+      "metric": "faithfulness",
+      "gpt-4o-mini": {
+        "hybrid": 0.7895,
+        "baseline_flat_vector_all": 0.2895
+      },
+      "gpt-4o": {
+        "hybrid": 0.7711,
+        "baseline_flat_vector_all": 0.85
+      },
+      "hybrid_vs_baseline_gap": {
+        "gpt-4o-mini": 0.5,
+        "gpt-4o": -0.0789
+      }
+    },
+    {
+      "metric": "answer_relevance",
+      "gpt-4o-mini": {
+        "hybrid": 0.9711,
+        "baseline_flat_vector_all": 0.9658
+      },
+      "gpt-4o": {
+        "hybrid": 0.9053,
+        "baseline_flat_vector_all": 0.9289
+      },
+      "hybrid_vs_baseline_gap": {
+        "gpt-4o-mini": 0.0053,
+        "gpt-4o": -0.0236
+      }
+    }
+  ]
+}

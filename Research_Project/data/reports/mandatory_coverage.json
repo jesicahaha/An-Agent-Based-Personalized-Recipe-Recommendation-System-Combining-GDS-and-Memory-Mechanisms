@@ -1,0 +1,220 @@
+{
+  "一": {
+    "status": "flagged",
+    "template_article_nos": [
+      "簽約注意事項"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_front"
+    ]
+  },
+  "二": {
+    "status": "flagged",
+    "template_article_nos": [
+      "一"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art一"
+    ]
+  },
+  "三": {
+    "status": "flagged",
+    "template_article_nos": [
+      "一"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art一"
+    ]
+  },
+  "六": {
+    "status": "flagged",
+    "template_article_nos": [
+      "二"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art二"
+    ]
+  },
+  "四": {
+    "status": "flagged",
+    "template_article_nos": [
+      "四"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art四"
+    ]
+  },
+  "五": {
+    "status": "flagged",
+    "template_article_nos": [
+      "五",
+      "六"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art五",
+      "contract_錯誤契約_art六"
+    ]
+  },
+  "七": {
+    "status": "ok",
+    "template_article_nos": [
+      "八"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art八"
+    ]
+  },
+  "十七": {
+    "status": "ok",
+    "template_article_nos": [
+      "十"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十"
+    ]
+  },
+  "八": {
+    "status": "flagged",
+    "template_article_nos": [
+      "十一"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十一"
+    ]
+  },
+  "九": {
+    "status": "flagged",
+    "template_article_nos": [
+      "十二"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十二"
+    ]
+  },
+  "十": {
+    "status": "flagged",
+    "template_article_nos": [
+      "十三"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十三"
+    ]
+  },
+  "十一": {
+    "status": "flagged",
+    "template_article_nos": [
+      "十四"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十四"
+    ]
+  },
+  "十二": {
+    "status": "ok",
+    "template_article_nos": [
+      "十五"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十五"
+    ]
+  },
+  "十三": {
+    "status": "ok",
+    "template_article_nos": [
+      "十六"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十六"
+    ]
+  },
+  "十四": {
+    "status": "ok",
+    "template_article_nos": [
+      "十七"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十七"
+    ]
+  },
+  "十五": {
+    "status": "ok",
+    "template_article_nos": [
+      "十八"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十八"
+    ]
+  },
+  "十六": {
+    "status": "ok",
+    "template_article_nos": [
+      "十九"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art十九"
+    ]
+  },
+  "十九": {
+    "status": "ok",
+    "template_article_nos": [
+      "二十"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art二十"
+    ]
+  },
+  "二十二": {
+    "status": "flagged",
+    "template_article_nos": [
+      "二十一"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art二十一"
+    ]
+  },
+  "二十": {
+    "status": "flagged",
+    "template_article_nos": [
+      "二十二"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art二十二"
+    ]
+  },
+  "二十一": {
+    "status": "ok",
+    "template_article_nos": [
+      "二十三"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art二十三"
+    ]
+  },
+  "十八": {
+    "status": "flagged",
+    "template_article_nos": [
+      "二十九"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art二十九"
+    ]
+  },
+  "二十四": {
+    "status": "flagged",
+    "template_article_nos": [
+      "三十"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art三十"
+    ]
+  },
+  "二十三": {
+    "status": "flagged",
+    "template_article_nos": [
+      "三十四"
+    ],
+    "contract_article_nos": [
+      "contract_錯誤契約_art三十四"
+    ]
+  }
+}

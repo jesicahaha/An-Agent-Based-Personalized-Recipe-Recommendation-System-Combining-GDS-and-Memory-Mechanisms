@@ -1,0 +1,277 @@
+{
+  "params": {
+    "theta_sim": 0.75,
+    "theta_merge": 0.3,
+    "alpha": 0.5,
+    "t": 3,
+    "k": 2,
+    "generator_model": "gpt-4o-mini",
+    "judge_model": "gpt-4o"
+  },
+  "classification": {
+    "hybrid": {
+      "tp": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art十三",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十四",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "fn": [
+        "contract_錯誤契約_art二十一"
+      ],
+      "fp": [
+        "contract_錯誤契約_art六",
+        "contract_錯誤契約_art十四"
+      ],
+      "tn": [
+        "contract_錯誤契約_art三",
+        "contract_錯誤契約_art八",
+        "contract_錯誤契約_art九",
+        "contract_錯誤契約_art十",
+        "contract_錯誤契約_art十五",
+        "contract_錯誤契約_art十六",
+        "contract_錯誤契約_art十七",
+        "contract_錯誤契約_art十八",
+        "contract_錯誤契約_art十九",
+        "contract_錯誤契約_art二十",
+        "contract_錯誤契約_art二十三",
+        "contract_錯誤契約_art二十四",
+        "contract_錯誤契約_art二十五",
+        "contract_錯誤契約_art二十六",
+        "contract_錯誤契約_art二十八",
+        "contract_錯誤契約_art三十一",
+        "contract_錯誤契約_art三十二",
+        "contract_錯誤契約_art三十三",
+        "contract_錯誤契約_art三十六"
+      ],
+      "precision": 0.8889,
+      "recall": 0.9412,
+      "f1": 0.9143
+    },
+    "baseline_template_only": {
+      "tp": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art十三",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十四",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "fn": [
+        "contract_錯誤契約_art二十一"
+      ],
+      "fp": [],
+      "tn": [
+        "contract_錯誤契約_art三",
+        "contract_錯誤契約_art六",
+        "contract_錯誤契約_art八",
+        "contract_錯誤契約_art九",
+        "contract_錯誤契約_art十",
+        "contract_錯誤契約_art十四",
+        "contract_錯誤契約_art十五",
+        "contract_錯誤契約_art十六",
+        "contract_錯誤契約_art十七",
+        "contract_錯誤契約_art十八",
+        "contract_錯誤契約_art十九",
+        "contract_錯誤契約_art二十",
+        "contract_錯誤契約_art二十三",
+        "contract_錯誤契約_art二十四",
+        "contract_錯誤契約_art二十五",
+        "contract_錯誤契約_art二十六",
+        "contract_錯誤契約_art二十八",
+        "contract_錯誤契約_art三十一",
+        "contract_錯誤契約_art三十二",
+        "contract_錯誤契約_art三十三",
+        "contract_錯誤契約_art三十六"
+      ],
+      "precision": 1.0,
+      "recall": 0.9412,
+      "f1": 0.9697
+    },
+    "baseline_flat_vector_all": {
+      "tp": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art十三",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十四",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "fn": [
+        "contract_錯誤契約_art二十一"
+      ],
+      "fp": [
+        "contract_錯誤契約_art十四",
+        "contract_錯誤契約_art十七"
+      ],
+      "tn": [
+        "contract_錯誤契約_art三",
+        "contract_錯誤契約_art六",
+        "contract_錯誤契約_art八",
+        "contract_錯誤契約_art九",
+        "contract_錯誤契約_art十",
+        "contract_錯誤契約_art十五",
+        "contract_錯誤契約_art十六",
+        "contract_錯誤契約_art十八",
+        "contract_錯誤契約_art十九",
+        "contract_錯誤契約_art二十",
+        "contract_錯誤契約_art二十三",
+        "contract_錯誤契約_art二十四",
+        "contract_錯誤契約_art二十五",
+        "contract_錯誤契約_art二十六",
+        "contract_錯誤契約_art二十八",
+        "contract_錯誤契約_art三十一",
+        "contract_錯誤契約_art三十二",
+        "contract_錯誤契約_art三十三",
+        "contract_錯誤契約_art三十六"
+      ],
+      "precision": 0.8889,
+      "recall": 0.9412,
+      "f1": 0.9143
+    }
+  },
+  "law_grounding_accuracy": {
+    "hybrid": {
+      "hits": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十四",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "misses": [
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art十三"
+      ],
+      "accuracy": 0.875
+    },
+    "baseline_flat_vector_all": {
+      "hits": [
+        "contract_錯誤契約_art十三",
+        "contract_錯誤契約_art三十四"
+      ],
+      "misses": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "accuracy": 0.125
+    }
+  },
+  "mandatory_grounding_accuracy": {
+    "hybrid": {
+      "hits": [
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十四",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "misses": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art十三"
+      ],
+      "accuracy": 0.6875
+    },
+    "baseline_flat_vector_all": {
+      "hits": [],
+      "misses": [
+        "contract_錯誤契約_front",
+        "contract_錯誤契約_art一",
+        "contract_錯誤契約_art二",
+        "contract_錯誤契約_art四",
+        "contract_錯誤契約_art五",
+        "contract_錯誤契約_art七",
+        "contract_錯誤契約_art十一",
+        "contract_錯誤契約_art十二",
+        "contract_錯誤契約_art十三",
+        "contract_錯誤契約_art二十二",
+        "contract_錯誤契約_art二十七",
+        "contract_錯誤契約_art二十九",
+        "contract_錯誤契約_art三十",
+        "contract_錯誤契約_art三十四",
+        "contract_錯誤契約_art三十五",
+        "contract_錯誤契約_art三十七"
+      ],
+      "accuracy": 0.0
+    }
+  },
+  "ragas_summary": {
+    "hybrid": {
+      "context_relevance": 0.8158,
+      "faithfulness": 0.8079,
+      "answer_relevance": 0.9105
+    },
+    "baseline_template_only": {
+      "context_relevance": 0.8605,
+      "faithfulness": 0.8763,
+      "answer_relevance": 0.95
+    },
+    "baseline_flat_vector_all": {
+      "context_relevance": 0.8526,
+      "faithfulness": 0.8289,
+      "answer_relevance": 0.9079
+    }
+  }
+}

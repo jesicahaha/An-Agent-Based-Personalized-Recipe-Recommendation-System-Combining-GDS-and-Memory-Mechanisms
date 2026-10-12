@@ -1,0 +1,126 @@
+{
+  "grid_results": [
+    {
+      "k": 1,
+      "t": 3,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5526,
+      "f1": 0.9697,
+      "law_grounding_accuracy": 0.5625,
+      "mandatory_grounding_accuracy": 0.3125,
+      "needs_review_count": 17
+    },
+    {
+      "k": 1,
+      "t": 5,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5526,
+      "f1": 0.9697,
+      "law_grounding_accuracy": 0.5625,
+      "mandatory_grounding_accuracy": 0.3125,
+      "needs_review_count": 17
+    },
+    {
+      "k": 1,
+      "t": 7,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5526,
+      "f1": 0.9697,
+      "law_grounding_accuracy": 0.5625,
+      "mandatory_grounding_accuracy": 0.3125,
+      "needs_review_count": 17
+    },
+    {
+      "k": 2,
+      "t": 3,
+      "precision": 0.8889,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5,
+      "f1": 0.9143,
+      "law_grounding_accuracy": 0.9375,
+      "mandatory_grounding_accuracy": 0.6875,
+      "needs_review_count": 19
+    },
+    {
+      "k": 2,
+      "t": 5,
+      "precision": 0.8889,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5,
+      "f1": 0.9143,
+      "law_grounding_accuracy": 0.9375,
+      "mandatory_grounding_accuracy": 0.6875,
+      "needs_review_count": 19
+    },
+    {
+      "k": 2,
+      "t": 7,
+      "precision": 0.8889,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5,
+      "f1": 0.9143,
+      "law_grounding_accuracy": 0.9375,
+      "mandatory_grounding_accuracy": 0.6875,
+      "needs_review_count": 19
+    }
+  ],
+  "best": {
+    "k": 2,
+    "t": 3,
+    "precision": 0.8889,
+    "recall": 0.9412,
+    "risk_hit_rate": 0.9412,
+    "reduction_rate": 0.5,
+    "f1": 0.9143,
+    "law_grounding_accuracy": 0.9375,
+    "mandatory_grounding_accuracy": 0.6875,
+    "needs_review_count": 19
+  },
+  "excluded_from_selection": [
+    {
+      "k": 1,
+      "t": 3,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5526,
+      "f1": 0.9697,
+      "law_grounding_accuracy": 0.5625,
+      "mandatory_grounding_accuracy": 0.3125,
+      "needs_review_count": 17
+    },
+    {
+      "k": 1,
+      "t": 5,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5526,
+      "f1": 0.9697,
+      "law_grounding_accuracy": 0.5625,
+      "mandatory_grounding_accuracy": 0.3125,
+      "needs_review_count": 17
+    },
+    {
+      "k": 1,
+      "t": 7,
+      "precision": 1.0,
+      "recall": 0.9412,
+      "risk_hit_rate": 0.9412,
+      "reduction_rate": 0.5526,
+      "f1": 0.9697,
+      "law_grounding_accuracy": 0.5625,
+      "mandatory_grounding_accuracy": 0.3125,
+      "needs_review_count": 17
+    }
+  ]
+}

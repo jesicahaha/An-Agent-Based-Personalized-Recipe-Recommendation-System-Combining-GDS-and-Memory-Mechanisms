@@ -1,0 +1,813 @@
+{
+  "contract_錯誤契約_front": {
+    "query_text_preview": "簽約注意事項 一、甲方簽署本契約即表示已充分審閱並同意本契約全部內容，不另給予審",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_front",
+        "article_no": "簽約注意事項",
+        "score": 0.9551892173652023
+      }
+    ],
+    "law_articles": [
+      "11-1",
+      "11-1"
+    ],
+    "mandatory_items": [
+      "應記載一"
+    ]
+  },
+  "contract_錯誤契約_art一": {
+    "query_text_preview": "第一條 （乙方揭露必要之基本資料） 乙方提供具健身設備之場所，並揭露下列基本資料",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art一",
+        "article_no": "一",
+        "score": 0.912640003499754
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載三",
+      "應記載二"
+    ]
+  },
+  "contract_錯誤契約_art二": {
+    "query_text_preview": "第二條 （乙方服務提供及其內容說明） 乙方於營業時間內，提供運動器材設備供甲方使",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二",
+        "article_no": "二",
+        "score": 0.8559160857562904
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載六"
+    ]
+  },
+  "contract_錯誤契約_art三": {
+    "query_text_preview": "第三條 （入會條件） 甲方提供下列文件經乙方審查同意並經雙方簽約即取得會員資格：",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三",
+        "article_no": "三",
+        "score": 1.0
+      }
+    ],
+    "law_articles": [
+      "11",
+      "11"
+    ],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art四": {
+    "query_text_preview": "第四條 （會員種類及使用時段） 甲方加入乙方會員種類如下： □年會員：自核准入會",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art四",
+        "article_no": "四",
+        "score": 0.9384447787977944
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載四"
+    ]
+  },
+  "contract_錯誤契約_art五": {
+    "query_text_preview": "第五條 （甲方契約總金額） 契約總金額新臺幣○元，明細如下： □一、入會費新臺幣",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art五",
+        "article_no": "五",
+        "score": 0.9428897089601889
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載五"
+    ]
+  },
+  "contract_錯誤契約_art六": {
+    "query_text_preview": "第六條 （明定甲方繳款方式） 甲方應負擔契約總金額之繳交方式如下: □一、現金。",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art六",
+        "article_no": "六",
+        "score": 1.0000000000000002
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十八",
+        "article_no": "十八",
+        "score": 0.7779907783472824
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載五",
+      "應記載十五"
+    ]
+  },
+  "contract_錯誤契約_art七": {
+    "query_text_preview": "第七條 （會費調整） 乙方得視經營成本及市場狀況，於事前公告後自行調整第五條約定",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art七",
+        "article_no": "七",
+        "score": 0.8286068691464228
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "不得記載四"
+    ]
+  },
+  "contract_錯誤契約_art八": {
+    "query_text_preview": "第八條 （甲方與第三人之消費貸款契約） 為協助甲方取得給付本契約費用之資金來源，",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art八",
+        "article_no": "八",
+        "score": 1.0
+      }
+    ],
+    "law_articles": [
+      "18"
+    ],
+    "mandatory_items": [
+      "應記載七"
+    ]
+  },
+  "contract_錯誤契約_art九": {
+    "query_text_preview": "第九條 (約定通知方式) 本契約通知方式約定如下(得複選)： □一、公告於乙方網",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art九",
+        "article_no": "九",
+        "score": 1.0
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art十": {
+    "query_text_preview": "第十條 （乙方服務異動之通知及公告） 乙方有下列事由之一者，應與原定服務時間相距",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十",
+        "article_no": "十",
+        "score": 1.0000000000000002
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載十七"
+    ]
+  },
+  "contract_錯誤契約_art十一": {
+    "query_text_preview": "第十一條 (暫停會籍之事由與效果) 甲方申請暫停會籍須符合下列條件，且每次暫停不",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十一",
+        "article_no": "十一",
+        "score": 0.7948116747031357
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載八"
+    ]
+  },
+  "contract_錯誤契約_art十二": {
+    "query_text_preview": "第十二條 (不可歸責甲方事由之終止與效果) 乙方因業務需要得遷移營業場所或縮減場",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十二",
+        "article_no": "十二",
+        "score": 0.90169666847347
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十五",
+        "article_no": "十五",
+        "score": 0.7641098185262856
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十一",
+        "article_no": "十一",
+        "score": 0.7543352986647536
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載九",
+      "應記載十二",
+      "應記載八"
+    ]
+  },
+  "contract_錯誤契約_art十三": {
+    "query_text_preview": "第十三條 (可歸責甲方事由之終止與效果) 甲方於契約期間內不得單方面終止契約。如",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十三",
+        "article_no": "十三",
+        "score": 0.9035298970838611
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十五",
+        "article_no": "十五",
+        "score": 0.8137615114005247
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十六",
+        "article_no": "十六",
+        "score": 0.8133445262427751
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十二",
+        "article_no": "十二",
+        "score": 0.8066985853282778
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十四",
+        "article_no": "十四",
+        "score": 0.773200348801698
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17",
+      "19",
+      "19",
+      "19",
+      "19",
+      "19",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載十",
+      "應記載十二",
+      "應記載十三",
+      "應記載九",
+      "應記載十一"
+    ]
+  },
+  "contract_錯誤契約_art十四": {
+    "query_text_preview": "第十四條 (不可歸責雙方事由之終止與效果) 因天災、戰亂、政府法令之新增或變更等",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十四",
+        "article_no": "十四",
+        "score": 1.0000000000000002
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十五",
+        "article_no": "十五",
+        "score": 0.819425968067499
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十六",
+        "article_no": "十六",
+        "score": 0.8112126085144818
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十二",
+        "article_no": "十二",
+        "score": 0.7640174750826297
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十三",
+        "article_no": "十三",
+        "score": 0.7521884356215026
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17",
+      "17",
+      "19",
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "mandatory_items": [
+      "應記載十一",
+      "應記載十二",
+      "應記載十三",
+      "應記載九",
+      "應記載十"
+    ]
+  },
+  "contract_錯誤契約_art十五": {
+    "query_text_preview": "第十五條 (不可歸責乙方事由之終止與效果) 甲方有影響乙方營運之不當行為情節重大",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十五",
+        "article_no": "十五",
+        "score": 0.9999999999999999
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十六",
+        "article_no": "十六",
+        "score": 0.8865593730015303
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十二",
+        "article_no": "十二",
+        "score": 0.8249586748326604
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十四",
+        "article_no": "十四",
+        "score": 0.819425968067499
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十三",
+        "article_no": "十三",
+        "score": 0.7718955714446621
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17",
+      "17",
+      "19",
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "mandatory_items": [
+      "應記載十二",
+      "應記載十三",
+      "應記載九",
+      "應記載十一",
+      "應記載十"
+    ]
+  },
+  "contract_錯誤契約_art十六": {
+    "query_text_preview": "第十六條 (可歸責乙方事由之終止與效果) 可歸責乙方之事由致不能繼續履約者，甲方",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十六",
+        "article_no": "十六",
+        "score": 1.0
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十五",
+        "article_no": "十五",
+        "score": 0.8865593730015303
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十二",
+        "article_no": "十二",
+        "score": 0.8298569981272851
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十三",
+        "article_no": "十三",
+        "score": 0.8161390063073721
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十四",
+        "article_no": "十四",
+        "score": 0.8112126085144818
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十八",
+        "article_no": "十八",
+        "score": 0.7623261608457319
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17",
+      "17",
+      "19",
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "mandatory_items": [
+      "應記載十三",
+      "應記載十二",
+      "應記載九",
+      "應記載十",
+      "應記載十一",
+      "應記載十五"
+    ]
+  },
+  "contract_錯誤契約_art十七": {
+    "query_text_preview": "第十七條 （履約地點正式營運前之終止） 甲方於履約地點正式營運前簽訂契約，得於正",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十七",
+        "article_no": "十七",
+        "score": 1.0
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載十四"
+    ]
+  },
+  "contract_錯誤契約_art十八": {
+    "query_text_preview": "第十八條 (終止契約之通知及退款方式) 甲方依第十二條至第十四條、第十六條、前條",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十八",
+        "article_no": "十八",
+        "score": 1.0000000000000002
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art六",
+        "article_no": "六",
+        "score": 0.7779907783472824
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十六",
+        "article_no": "十六",
+        "score": 0.7623261608457319
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art二十",
+        "article_no": "二十",
+        "score": 0.7566435747690249
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載十五",
+      "應記載五",
+      "應記載十三",
+      "應記載十九"
+    ]
+  },
+  "contract_錯誤契約_art十九": {
+    "query_text_preview": "第十九條 （契約讓與第三人） 甲方於契約期間屆滿前經乙方同意，得讓與契約予第三人",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art十九",
+        "article_no": "十九",
+        "score": 1.0
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載十六"
+    ]
+  },
+  "contract_錯誤契約_art二十": {
+    "query_text_preview": "第二十條 （甲方未繳費用時乙方通知義務） 甲方未繳費用時，乙方應於繳費期限屆滿日",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十",
+        "article_no": "二十",
+        "score": 1.0
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art二十九",
+        "article_no": "二十九",
+        "score": 0.8325522472729175
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十三",
+        "article_no": "十三",
+        "score": 0.7623193898658106
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十八",
+        "article_no": "十八",
+        "score": 0.7566435747690249
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art十二",
+        "article_no": "十二",
+        "score": 0.7557902513822264
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17",
+      "17",
+      "19",
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "mandatory_items": [
+      "應記載十九",
+      "不得記載十一",
+      "應記載十八",
+      "應記載十",
+      "應記載十五",
+      "應記載九"
+    ]
+  },
+  "contract_錯誤契約_art二十一": {
+    "query_text_preview": "第二十一條 (乙方履約保障) 乙方基於對自身經營能力之自信，不提供任何形式之履約",
+    "matched_templates": [],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art二十二": {
+    "query_text_preview": "第二十二條 （贈品約款及其效果） 乙方贈與甲方之贈品（含贈送會籍期間），附條件如",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十二",
+        "article_no": "二十二",
+        "score": 0.9016359083915697
+      }
+    ],
+    "law_articles": [
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "不得記載十三",
+      "應記載二十"
+    ]
+  },
+  "contract_錯誤契約_art二十三": {
+    "query_text_preview": "第二十三條 (會籍轉點) 甲方會籍可否轉換其他營業場所（下稱轉點），約定下列方式",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十三",
+        "article_no": "二十三",
+        "score": 1.0
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載二十一"
+    ]
+  },
+  "contract_錯誤契約_art二十四": {
+    "query_text_preview": "第二十四條 （健身中心相關義務） 乙方於其營業場所內，應遵守下列各款規定： 一、",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十四",
+        "article_no": "二十四",
+        "score": 0.9999999999999999
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art二十五",
+        "article_no": "二十五",
+        "score": 0.8260679058446644
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art二",
+        "article_no": "二",
+        "score": 0.7526736189185793
+      }
+    ],
+    "law_articles": [
+      "7",
+      "7",
+      "7",
+      "11",
+      "11",
+      "17",
+      "17"
+    ],
+    "mandatory_items": [
+      "應記載六"
+    ]
+  },
+  "contract_錯誤契約_art二十五": {
+    "query_text_preview": "第二十五條 （設備使用） 甲方使用乙方設備，應遵守下列規範： 一、應於接待櫃檯登",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十五",
+        "article_no": "二十五",
+        "score": 1.0
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art二十四",
+        "article_no": "二十四",
+        "score": 0.8260679058446644
+      }
+    ],
+    "law_articles": [
+      "11",
+      "11",
+      "7",
+      "7",
+      "7"
+    ],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art二十六": {
+    "query_text_preview": "第二十六條 （乙方管理規範訂頒及修正） 乙方為便利甲方充分有效使用乙方運動器材設",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十六",
+        "article_no": "二十六",
+        "score": 1.0000000000000002
+      }
+    ],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art二十七": {
+    "query_text_preview": "第二十七條 （損害賠償責任） 乙方對於甲方於本場所內因使用運動器材或參與活動所發",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十七",
+        "article_no": "二十七",
+        "score": 0.8306737913937522
+      }
+    ],
+    "law_articles": [
+      "7"
+    ],
+    "mandatory_items": [
+      "不得記載二"
+    ]
+  },
+  "contract_錯誤契約_art二十八": {
+    "query_text_preview": "第二十八條 (會員證或鑰匙之管理） 甲方應妥善保存會員證及所持有乙方之鑰匙，不得",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十八",
+        "article_no": "二十八",
+        "score": 1.0000000000000002
+      }
+    ],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art二十九": {
+    "query_text_preview": "第二十九條 (約定使用期間屆滿通知義務) 本契約期滿後，若甲方未於期滿前三十日以",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art二十九",
+        "article_no": "二十九",
+        "score": 0.8755525533846271
+      },
+      {
+        "id": "template_健身中心定型化契約範本_art二十",
+        "article_no": "二十",
+        "score": 0.7702894313167894
+      }
+    ],
+    "law_articles": [
+      "17"
+    ],
+    "mandatory_items": [
+      "不得記載十一",
+      "應記載十八",
+      "應記載十九"
+    ]
+  },
+  "contract_錯誤契約_art三十": {
+    "query_text_preview": "第三十條 （消費資訊及廣告） 乙方之廣告、宣傳單或口頭說明僅供參考，不構成契約內",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十",
+        "article_no": "三十",
+        "score": 0.8721208695587588
+      }
+    ],
+    "law_articles": [
+      "22"
+    ],
+    "mandatory_items": [
+      "應記載二十四"
+    ]
+  },
+  "contract_錯誤契約_art三十一": {
+    "query_text_preview": "第三十一條 (個別磋商條款) 甲乙雙方之權利義務事項，得本於個別磋商後書面約定如",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十一",
+        "article_no": "三十一",
+        "score": 1.0000000000000002
+      }
+    ],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art三十二": {
+    "query_text_preview": "第三十二條 (揭明爭議處理程序) 甲乙雙方發生爭議時，甲方得依消費者保護法之規定",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十二",
+        "article_no": "三十二",
+        "score": 1.0000000000000002
+      }
+    ],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art三十三": {
+    "query_text_preview": "第三十三條 (準據法) 本契約以中華民國法律為準據法。",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十三",
+        "article_no": "三十三",
+        "score": 0.9999943185931766
+      }
+    ],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art三十四": {
+    "query_text_preview": "第三十四條 (合意管轄) 因本契約發生訴訟時，雙方同意以臺北地方法院為唯一第一審",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十四",
+        "article_no": "三十四",
+        "score": 0.8285055347699978
+      }
+    ],
+    "law_articles": [
+      "47"
+    ],
+    "mandatory_items": [
+      "應記載二十三"
+    ]
+  },
+  "contract_錯誤契約_art三十五": {
+    "query_text_preview": "第三十五條 （疑義解釋） 本契約條款如有疑義，應以乙方之解釋為準。",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十五",
+        "article_no": "三十五",
+        "score": 0.9184034858569379
+      }
+    ],
+    "law_articles": [
+      "11"
+    ],
+    "mandatory_items": [
+      "不得記載七"
+    ]
+  },
+  "contract_錯誤契約_art三十六": {
+    "query_text_preview": "第三十六條 (未盡事宜之處理) 本契約有未盡事宜者，依相關法令、習慣及誠信原則公",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十六",
+        "article_no": "三十六",
+        "score": 0.9999999999999998
+      }
+    ],
+    "law_articles": [],
+    "mandatory_items": []
+  },
+  "contract_錯誤契約_art三十七": {
+    "query_text_preview": "第三十七條 (契約文件交執) 為確保契約完整性，甲方簽署之正本由乙方統一保管，不",
+    "matched_templates": [
+      {
+        "id": "template_健身中心定型化契約範本_art三十七",
+        "article_no": "三十七",
+        "score": 0.798258289584799
+      }
+    ],
+    "law_articles": [
+      "13",
+      "13"
+    ],
+    "mandatory_items": [
+      "不得記載八"
+    ]
+  }
+}
