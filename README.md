@@ -45,7 +45,7 @@
 
 ## 2. 國科會大專生計畫：基於 Hybrid RAG 與 MOT 架構之健身房契約審查系統
 
-解決 LLM 長文本迷失問題，獨立開發。
+解決 LLM 長文本迷失問題，獨立開發。將健身房契約逐條與「範本 → 應記載/不得記載事項 → 消費者保護法」比對，產生審查報告。
 
 **方法比較**
 1. 純向量檢索：搜尋全部相關資料
@@ -58,15 +58,66 @@
 | 純向量檢索 | 12.5% |
 | Hybrid RAG + MOT | 87.5%（約 7 倍） |
 
-**後續延伸**：將法規版本與有效期間納入知識圖譜，比較時效過濾的介入時機（無過濾 / 檢索後過濾 / 檢索前投影子圖）。
+**專案結構**
+```
+Research_Project/
+├── data/
+│   ├── raw/                          # 原始資料
+│   │   ├── consumer_protection_law.txt   # 消費者保護法
+│   │   ├── template.txt                  # 健身中心定型化契約範本
+│   │   ├── mandatory_items.txt           # 應記載及不得記載事項
+│   │   ├── wrong_contract.txt            # 待審查的錯誤契約（測試用）
+│   │   └── ground_truth.json             # 標準答案（17 條違規、21 條未改動）
+│   ├── processed/                    # 切分後節點（執行 preprocess.py 產生）
+│   ├── embeddings/                   # Embedding 快取（執行 build_kg.py 產生）
+│   ├── retrieval/                    # BFS / MOT 檢索結果
+│   ├── reports/                      # 審查報告與 grid search 結果
+│   └── evaluation/                   # 評估結果
+└── src/
+    ├── preprocess.py                 # 文本切分（法條→項、範本→條、應記載事項→點）
+    ├── build_kg.py                   # 建立 Neo4j 知識圖譜（節點與 BASED_ON / IMPLEMENTS 邊）
+    ├── retriever.py                  # 向量檢索 + BFS 兩跳擴展
+    ├── mot.py                        # MOT：子圖 Jaccard 合併與排序
+    ├── generator.py                  # LLM 產生審查報告（含 Rule-based 檢查）
+    └── evaluator.py                  # 評估：Precision / Recall / F1、法條命中率、grid search、基準比較
+```
+
+**執行流程**（腳本會自動切換到專案根目錄，可在任何位置執行）
+```bash
+python src/preprocess.py   # 1. 切分文本
+python src/build_kg.py     # 2. 建立知識圖譜（需啟動 Neo4j）
+python src/retriever.py    # 3. BFS 檢索
+python src/mot.py          # 4. MOT 合併與排序
+python src/generator.py    # 5. 產生審查報告
+python src/evaluator.py    # 6. 評估
+```
+需在專案根目錄建立 `.env`：`OPENAI_API_KEY`、`NEO4J_URI`、`NEO4J_USER`、`NEO4J_PASSWORD`。
+
+**圖譜設計**：節點為 `LawArticle`、`TemplateClause`、`MandatoryItem`；邊為 `BASED_ON`（範本/應記載事項 → 法條）與 `IMPLEMENTS`（範本 → 應記載事項）。待審契約僅作查詢輸入，不存入圖譜。
 
 ---
 
 ## 3. 人工智慧：雙隱藏層神經網路與參數搜尋
 
-- 結構 5 → 20 → H2 → 1；資料切分 6 : 2 : 2（訓練 / 驗證 / 測試）
+- 結構 5 → 20 → H2 → 1；資料（熱杯子五指溫度）切分 6 : 2 : 2（訓練 / 驗證 / 測試）
 - 第一層固定 20，第二層 H2 由 3 到 20 逐一測試；每組以 3 個 Random Seed 訓練，計算驗證準確率平均與標準差並繪製誤差線圖
 - **結果**：H2 = 13 最佳，平均驗證準確率約 72.73%，標準差約 2.18%，並以最佳結構在測試集評估
+
+**專案結構**（單一資料夾，無子目錄）
+```
+Artificial_Intelligence/
+├── cup_2layer.py                 # 主程式：5→20→H2→1 參數搜尋與評估
+├── cup_nn_train_data.csv         # 資料
+├── hidden2_runs.csv              # 輸出：每個 H2、每次 run 的 train/valid 準確率
+├── hidden2_summary.csv           # 輸出：每個 H2 驗證準確率的平均與標準差
+└── hidden2_validation_curve.png  # 輸出：H2 vs 驗證準確率誤差線圖
+```
+
+**執行**：需在資料夾內執行（程式以相對路徑讀取 CSV）
+```bash
+cd Artificial_Intelligence
+python cup_2layer.py
+```
 
 ---
 
