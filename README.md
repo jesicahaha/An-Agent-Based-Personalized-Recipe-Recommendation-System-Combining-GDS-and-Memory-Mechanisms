@@ -120,9 +120,9 @@ python cup_2layer.py
 
 ## 4. 作業系統：多行程 vs 多執行緒登入驗證伺服器
 
-- 以 `fork`（多行程）與 `pthread`（多執行緒）分別實作 TCP 登入伺服器，從 `users.txt` 驗證帳密
+- 以 `fork`（多行程）與 `pthread`（多執行緒）分別實作 TCP 登入伺服器
 - 壓力測試程式以多執行緒模擬 10、50、100、200 個併發登入請求，並以互斥鎖（mutex）保護成功次數計數
-- 以 `/usr/bin/time -v` 量測 CPU 時間、記憶體與上下文切換次數，比較兩種架構的資源開銷
+- 量測 CPU 時間、記憶體與上下文切換次數，比較兩種架構的資源開銷
 
 **專案結構**（單一資料夾，無子目錄）
 ```
@@ -136,7 +136,7 @@ operating_system/
 └── login_*                   # 編譯後的執行檔（執行腳本時自動產生）
 ```
 
-**執行**（需在 Linux 或 WSL 環境，使用 `fork`、`pthread` 與 `arpa/inet.h`）
+**執行**（需在 Linux 或 WSL 環境）
 ```bash
 cd operating_system
 bash run_tests.sh
