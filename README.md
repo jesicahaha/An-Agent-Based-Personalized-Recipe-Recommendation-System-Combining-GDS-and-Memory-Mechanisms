@@ -6,7 +6,7 @@
 | `Research_Project/` | 國科會大專生計畫：健身房契約審查系統 |
 | `Artificial_Intelligence/` | 人工智慧課程：神經網路參數搜尋 |
 | `operating_system/` | 作業系統課程：多行程 vs 多執行緒 |
-| `Programming_Languages/` | 程式語言（一）：C++ 貪食蛇 |
+| `Programming_Languages/` | 程式語言：C++ 貪食蛇 |
 
 ---
 
@@ -32,7 +32,6 @@
 ├── KG/                 # KGE 模型訓練
 ├── .env_example        # 環境變數範本
 ├── requirements.txt    # Python 套件
-└── README.md
 ```
 
 **我的負責項目**
@@ -93,8 +92,6 @@ python src/evaluator.py    # 6. 評估
 ```
 需在專案根目錄建立 `.env`：`OPENAI_API_KEY`、`NEO4J_URI`、`NEO4J_USER`、`NEO4J_PASSWORD`。
 
-**圖譜設計**：節點為 `LawArticle`、`TemplateClause`、`MandatoryItem`；邊為 `BASED_ON`（範本/應記載事項 → 法條）與 `IMPLEMENTS`（範本 → 應記載事項）。待審契約僅作查詢輸入，不存入圖譜。
-
 ---
 
 ## 3. 人工智慧：雙隱藏層神經網路與參數搜尋
@@ -103,11 +100,11 @@ python src/evaluator.py    # 6. 評估
 - 第一層固定 20，第二層 H2 由 3 到 20 逐一測試；每組以 3 個 Random Seed 訓練，計算驗證準確率平均與標準差並繪製誤差線圖
 - **結果**：H2 = 13 最佳，平均驗證準確率約 72.73%，標準差約 2.18%，並以最佳結構在測試集評估
 
-**專案結構**（單一資料夾，無子目錄）
+**專案結構**
 ```
 Artificial_Intelligence/
 ├── cup_2layer.py                 # 主程式：5→20→H2→1 參數搜尋與評估
-├── cup_nn_train_data.csv         # 資料
+├── cup_nn_train_data.csv         # 資料（程式內部再切成 6:2:2）
 ├── hidden2_runs.csv              # 輸出：每個 H2、每次 run 的 train/valid 準確率
 ├── hidden2_summary.csv           # 輸出：每個 H2 驗證準確率的平均與標準差
 └── hidden2_validation_curve.png  # 輸出：H2 vs 驗證準確率誤差線圖
@@ -123,9 +120,31 @@ python cup_2layer.py
 
 ## 4. 作業系統：多行程 vs 多執行緒登入驗證伺服器
 
-- 以 `fork`（多行程）與 `thread`（多執行緒）分別實作伺服器端
-- 模擬 10、50、100、200 個併發登入請求，以互斥鎖確保共享計數正確
-- 量測登入成功次數、CPU 時間、記憶體與上下文切換次數，比較兩種架構的資源開銷
+- 以 `fork`（多行程）與 `pthread`（多執行緒）分別實作 TCP 登入伺服器，從 `users.txt` 驗證帳密
+- 壓力測試程式以多執行緒模擬 10、50、100、200 個併發登入請求，並以互斥鎖（mutex）保護成功次數計數
+- 以 `/usr/bin/time -v` 量測 CPU 時間、記憶體與上下文切換次數，比較兩種架構的資源開銷
+
+**專案結構**（單一資料夾，無子目錄）
+```
+operating_system/
+├── login_server_fork.c       # 多行程伺服器：每個連線 fork 一個子行程處理
+├── login_server_thread.c     # 多執行緒伺服器：每個連線建立一個 thread 處理
+├── login_client.c            # 單一客戶端：手動輸入帳密登入
+├── login_stress.c            # 壓力測試：多執行緒併發登入 + mutex計數
+├── run_tests.sh              # 自動化測試腳本
+├── users.txt                 # 測試帳號檔（執行腳本時自動產生）
+└── login_*                   # 編譯後的執行檔（執行腳本時自動產生）
+```
+
+**執行**（需在 Linux 或 WSL 環境，使用 `fork`、`pthread` 與 `arpa/inet.h`）
+```bash
+cd operating_system
+bash run_tests.sh
+```
+腳本會編譯四支程式，依序對 fork 伺服器與 thread 伺服器各跑 10、50、100、200 併發的壓力測試，並印出 `time -v` 統計。
+
+**重點收穫**
+- 行程與執行緒的建立與切換成本差異
 
 ---
 
