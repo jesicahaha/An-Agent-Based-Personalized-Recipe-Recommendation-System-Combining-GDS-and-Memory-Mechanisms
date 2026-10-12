@@ -14,7 +14,7 @@
 
 系統分為 **LLM（AI 助手）** 與 **語音烹飪** 兩大模式。成果已投稿 TANET 2026 暨 ICS；記憶機制相關研究投稿 TAAI 2026。
 
-<img src="flow.jpg" width="600" alt="系統流程">
+<img src="An-Agent-Based-Personalized-Recipe-Recommendation-System-Combining-GDS-and-Memory-Mechanisms/flow.jpg" width="600" alt="系統流程">
 
 **核心技術**
 - **知識圖譜**：以 Neo4j 建立食譜知識圖譜
